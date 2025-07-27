@@ -109,7 +109,7 @@
 &kp Q       &kp W         &kp E         &kp R  &kp T                                                  &kp Y               &kp U  &kp I      &kp O    &kp P
 &kp A       &kp S         &kp D         &kp F  &kp G             &kp LCTRL           &kp RCTRL        &kp H               &kp J  &kp K      &kp L    &kp MINUS
 &kp Z       &kp X         &kp C         &kp V  &kp B             &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp N               &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &mo 5  &lt 4 LANGUAGE_5  &kp SPACE           &kp ENTER        &lt 1 LEFT_BRACKET                             &kp BACKSPACE
+&kp ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &mo 5  &lt 4 JP_HANZEN   &kp SPACE           &kp ENTER        &lt 1 JP_AT                                    &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -146,19 +146,19 @@
 
         MOUSE {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans        &mkp MB1      &mkp MB3      &mkp MB2      &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans        &trans        &trans        &trans        &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                     &kp NUMBER_6           &kp NUMBER_7           &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &trans        &trans        &kp JP_LBRACKET        &trans      &trans        &kp JP_RBRACKET        &mkp MB1               &mkp MB3      &mkp MB2      &trans
+&trans        &trans        &trans        &trans        &trans                 &trans      &trans        &trans                 &trans                 &trans        &trans        &trans
+&trans        &trans        &trans        &trans        &trans                 &trans      &trans        &trans                                                                    &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp DELETE
+&trans  &trans  &trans  &trans  &trans                      &trans             &trans         &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans             &trans         &kp JP_COLON  &trans  &kp JP_TILDE
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp JP_UNDERSCORE  &kp JP_YEN     &trans        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &kp DELETE
             >;
         };
 
