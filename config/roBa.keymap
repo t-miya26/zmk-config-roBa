@@ -93,7 +93,7 @@
 &kp Q             &kp W         &kp E         &kp R  &kp T                                         &kp Y               &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F  &kp G        &kp PRINTSCREEN      &kp TAB     &kp H               &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &kp LCTRL            &kp LSHIFT  &kp N               &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &lt 1 GRAVE  &kp SPACE            &kp ENTER   &lt 3 LEFT_BRACKET                             &kp Z
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &lt 1 GRAVE  &kp SPACE            &kp ENTER   &lt 3 LEFT_BRACKET                             &kp 0x89
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -102,9 +102,9 @@
         FUNCTION {
             bindings = <
 &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                               &kp NUMBER_6          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp SINGLE_QUOTE  &kp SEMICOLON  &kp Z         &kp F10       &kp RIGHT_BRACKET  &trans      &kp ESCAPE  &kp BACKSLASH         &mkp MB1      &mkp MB3      &mkp MB2      &kp PLUS
+&kp SINGLE_QUOTE  &kp SEMICOLON  &kp LS(0x87)  &kp F10       &kp RIGHT_BRACKET  &trans      &kp ESCAPE  &kp BACKSLASH         &mkp MB1      &mkp MB3      &mkp MB2      &kp PLUS
 &trans            &trans         &trans        &kp F7        &kp ASTERISK       &trans      &trans      &kp LEFT_PARENTHESIS  &trans        &mkp MB4      &mkp MB5      &kp EQUAL
-&trans            &trans         &trans        &trans        &trans             &trans      &trans      &trans                                                          &kp Z
+&trans            &trans         &trans        &trans        &trans             &trans      &trans      &trans                                                          &kp LS(0x89)
             >;
         };
 
